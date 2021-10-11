@@ -1,0 +1,47 @@
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  margin: 0;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw top -50vh, left 48vw top 48vh;
+  background-color: #19A1AE;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+
+}
+
+/* =========
+Typography
+============*/
+
+
+
+
+
+
+/* =========
+Layout
+============*/
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  /* border: 1px solid magenta; */
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card-container{
+  margin: 10em auto;
+}
+
+
+/* card */
+.card-body-pro-pic{
+  background-image: url("../images/bg-pattern-card.svg");
+      
